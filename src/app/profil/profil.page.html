@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ profil }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ profil }}</ion-title>
+    </ion-toolbar>
+  </ion-header> 
+  <div id="container"> 
+    <ion-list>
+      <ion-item>
+        <ion-label stacked>Votre pseudonyme</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label stacked>Votre Mot de passe</ion-label>
+        <ion-input type="password" value=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="connexion">
+      <button block>S'inscrire</button>
+    </div>
+</div>
+</ion-content>

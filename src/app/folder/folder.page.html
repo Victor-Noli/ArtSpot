@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header> 
+  <div id="container">
+   <!--  <strong class="capitalize">{{ folder }}</strong>
+    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="https://rouen.fr/sites/default/files/user/11/Institution/alain-rault.jpg" alt="InkOJ">
+          <a href="https://rouen.fr/alain-rault" target="_blank">InkOJ</a>
+        </ion-col>
+        <ion-col>
+          <img src="https://rouen.fr/sites/default/files/user/11/Institution/oeuvre-arnaudliard.jpg" alt="Rejoins-moi">
+          <a href="https://rouen.fr/arnaud-liard" target="_blank">Rejoins-moi</a>
+        </ion-col>
+        <ion-col>
+          <img src="https://rouen.fr/sites/default/files/user/11/Institution/oeuvre-arnaudliard.jpg" alt="crabe&meca">
+          <a href="https://rouen.fr/binokl-evok" target="_blank">Le crabe et la mécano</a>
+        </ion-col>
+        <ion-col>
+          <img src="https://rouen.fr/sites/default/files/user/11/Institution/oeuvre_binokl_evok.jpg" alt="Riddler">
+          <a href="https://rouen.fr/cajou" target="_blank">Liaison de Riddler</a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+
